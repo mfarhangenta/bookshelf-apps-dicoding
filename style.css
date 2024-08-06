@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Barlow Condensed';
+}
+
+input, button {
+    font-size: 20px;
+}
+
+.head_bar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ED9455;
+    color: white;
+}
+
+main {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: #ED9455;
+    font-size: 30px;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: #ED9455;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section > form > .input > label {
+    color: #ED9455;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    color: #ED9455;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.book_shelf {
+    margin: 50px 0 50px 0;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.book_shelf > h2 {
+    color: #ED9455;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list1 > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book_shelf > .book_list2 > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list1 > .book_item > .action > .green {
+    background-color: rgb(0, 136, 0);
+    color: white;
+}
+
+.book_shelf > .book_list1 > .book_item > .action > .red {
+    background-color: rgb(212, 4, 4);
+    color: white;
+}
+.book_shelf > .book_list2 > .book_item > .action > .green {
+    background-color: rgb(0, 136, 0);
+    color: white;
+}
+
+.book_shelf > .book_list2 > .book_item > .action > .red {
+    background-color: rgb(212, 4, 4);
+    color: white;
+}
+footer {
+    padding: 40px;
+    color: white;
+    background-color: #ED9455;
+    text-align: center;
+    font-weight: bold;
+  }
